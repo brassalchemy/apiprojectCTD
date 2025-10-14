@@ -1,0 +1,12 @@
+body { 
+    background-color: black;
+}
+
+h2 {
+    color: white;
+}
+
+#MyFirstImage { 
+    border-radius: 20px;
+    color: whitesmoke;
+}
