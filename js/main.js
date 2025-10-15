@@ -9,6 +9,8 @@ async function fetchIndependentData() {
     }
 }
 
+// https://api.artic.edu/api/v1/artworks/search?q=ghana&query[term][is_public_domain]=true&fields=artist_title,date_display,image_id,thumbnail,title
+
 // fetch("https://api.artic.edu/api/v1/artworks") 
    //  .then(response => response.json()) // capture response and turn into json format
    //  .then(data => { 
