@@ -7,38 +7,42 @@
     <title>API Project</title>
     <link rel="stylesheet" href="css/index.css" /> 
     <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Importing new font! -->
 </head>
-
 
 <body>
 
-
     <section id= "Header">
-        <h2>ART INSTITUTE OF CHICAGO</h2>
+        <h2>ART INSTITUTE OF CHICAGO</h2> <!-- Top heading of landing page -->
+    </section>
         
-<!-- Search Hint -->
-<div class="search-hint"> 
-    <p><strong>You can search for:</strong> Royal Chair (Akonkromfi), A Work Made of Copper Alloy, Goldweight Depicting a Geometric Shape</p>
-  </div>
+  <main> <!-- Adding <main> tag element to represent primary content of page and support accessbility  -->
   
-  <!-- Search Bar -->
+
+        <!-- Creating block-level container element "search-hint", serves as a UI helper -->
+  <div class="search-hint"> 
+    <p><strong>You can search for:</strong> Royal Chair (Akonkromfi), A Work Made of Copper Alloy, Goldweight Depicting a Geometric Shape</p> <!-- <strong> elemement used to emphasize the importance of the text content for the user -->
+     </div>
+  
+
+        <!-- Creating block-level container element "search-container" to prompt user to look up artwork -->
   <div class="search-container">
-    <input type="text" id="searchInput" placeholder="Search for artwork...">
-    <button id="searchBtn"><i class="fas fa-search"></i></button>
+    <input type="text" id="searchInput" placeholder="Search for artwork..."> <!-- Creating element to collect user input -->
+    <button id="searchBtn"><i class="fas fa-search"></i></button> <!-- Creating button element with Font Awesome icon library  -->
   </div>
   
-  <!-- Popup -->
-  <div id="popup" class="popup"> 
-    <div class="popup-content"> 
-      <span class="close">&times;</span>
-      <img id="artImage" src="" alt="Artwork"> 
-      <p id="artDescription"></p>
+
+  <div id="popup" class="popup"> <!-- Setting up outter container of the popup -->
+    <div class="popup-content"> <!-- Popup box that will hold art image and description-->
+      <span class="close">&times;</span> <!-- Span element to create an "X" close button -->
+      <img id="artImage" src="" alt="Artwork"> <!-- Setting unique image identifier, empty "src" attribute, alternative text attribute for fallback if image fails to load -->
+      <p id="artDescription"></p> <!-- Paragraph element to hold the description of the artwork -->
     </div>
   </div>
   
 
 <script src="js/main.js"></script>
+</main>
 
 </body>
 

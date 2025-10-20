@@ -1,12 +1,15 @@
+/* Setting background color of page to black */
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0); 
 }
 
+/* Styling header title */
 h2 {
     text-align: center;
     color: rgb(254, 254, 20);
 }
 
+/* Styling for loaded art image */
 #artImage {
     width: 300px;         
     max-width: 600px;   
@@ -15,6 +18,7 @@ h2 {
   }
   
 
+/* Search hint bar to help users find artwork */
 .search-hint {
     text-align: center;
     font-size: 16px;
@@ -24,13 +28,14 @@ h2 {
     padding: 10px;
   }
   
-
+/* Search bar styling */
 .search-container { 
     display: flex; 
     justify-content: center;
     margin-bottom: 10px;
 }
 
+/* ??????????? */
 input[type="text"] { 
     padding: 10px; 
     width: 300px; 
@@ -38,10 +43,11 @@ input[type="text"] {
     border-radius: 5px 0 0 5px;
 }
 
+/* Styling for search button */
 button { 
     padding: 10px; 
     border: none; 
-    background-color: #333;
+    background-color: #404040;
     color: white; 
     cursor: pointer;
     border-radius: 0 5px 5px 0;
