@@ -4,7 +4,7 @@ body {
 
 h2 {
     text-align: center;
-    color: rgb(254, 254, 20);
+    color: rgb(255, 255, 249);
 }
 
 #artImage {
@@ -59,7 +59,7 @@ button {
 }
 
 .popup-content { 
-    background-color: rgb(87, 129, 39);
+    background-color: rgb(39, 82, 129);
     margin: 10% auto;
     padding: 20px;
     border-radius: 10px;
