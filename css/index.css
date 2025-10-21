@@ -1,10 +1,10 @@
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0); 
 }
 
 h2 {
     text-align: center;
-    color: rgb(254, 254, 20);
+    color: rgb(255, 255, 249);
 }
 
 #artImage {
@@ -14,7 +14,6 @@ h2 {
     margin-top: 0 auto;    
   }
   
-
 .search-hint {
     text-align: center;
     font-size: 16px;
@@ -41,11 +40,12 @@ input[type="text"] {
 button { 
     padding: 10px; 
     border: none; 
-    background-color: #333;
+    background-color: #404040;
     color: white; 
     cursor: pointer;
     border-radius: 0 5px 5px 0;
 }
+
 
 .popup { 
     display: none; 
@@ -59,7 +59,7 @@ button {
 }
 
 .popup-content { 
-    background-color: rgb(87, 129, 39);
+    background-color: rgb(39, 82, 129);
     margin: 10% auto;
     padding: 20px;
     border-radius: 10px;
